@@ -47,7 +47,7 @@ function check() {
             document.getElementById("player1_score").innerHTML = update_player_1_score;
         }
         else{
-            update_player_2_score = player1_score +1;
+            update_player_2_score = player2_score +1;
             document.getElementById("player2_score").innerHTML = update_player_2_score;
         }
     }
